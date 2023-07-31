@@ -21,6 +21,8 @@ type PositiveOddNumbersUnderTen = 1 | 3 | 5 | 7 | 9;
 
 
 
+
+
 // const user: User = {
 //     name: "Bruce",
 //     id: 0
