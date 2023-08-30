@@ -24,6 +24,15 @@ const getHello = (s: string): string => {
 return ""
 }
 
+// check this
+const heros = ["thor", "spiderman", "ironman"]
+// const heros = [1, 2, 3, 4]
+
+// TS knows hero is a string below
+heros.map(hero => {
+    return `hero is ${hero}`
+})
+
 getUpper("hey bud")
 addTwo(5)
 signUpUser('river', 'river@river.com', false) 
