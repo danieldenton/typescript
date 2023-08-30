@@ -13,6 +13,7 @@ let id = 666
 
 // this would equal any
 // let rp
+// noImplicitAny will not allow  this.
 let rp: string
 
 function getArtis() {
