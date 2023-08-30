@@ -1,1 +1,6 @@
+
+// let or const varaibleNmae: type = value
 let age: number = 20;
+if (age < 50)
+    age += 10;
+console.log(age)

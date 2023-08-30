@@ -6,3 +6,4 @@ class UserAccount {
     }
 }
 const user = new UserAccount("River", 1);
+//# sourceMappingURL=hello.js.map
