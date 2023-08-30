@@ -11,7 +11,9 @@ let isLoggedIn: boolean = false
 // this is enough. TS will recognize this is a number.
 let id = 666
 
-let rp
+// this would equal any
+// let rp
+let rp: string
 
 function getArtis() {
     return "River Priest"
