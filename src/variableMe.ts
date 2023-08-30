@@ -8,4 +8,8 @@ let userId: number = 444.44
 // boolean
 let isLoggedIn: boolean = false
 
+// this is enough. TS will recognize this is a number.
+let id = 666
+
+
 export {}
