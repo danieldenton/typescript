@@ -28,10 +28,22 @@ return ""
 const heros = ["thor", "spiderman", "ironman"]
 // const heros = [1, 2, 3, 4]
 
-// TS knows hero is a string below
-heros.map(hero => {
+// TS knows hero is a string below with out : string
+// better to declare it for safety.
+heros.map((hero): string => {
     return `hero is ${hero}`
 })
+
+// void specifies nothing is returned.
+function consoleError(errorMessage: string): void{
+    console.log(errorMessage)
+    // return 'hey'
+}
+
+// Never is similar to void. See docs.
+function consoleErrorTwo(errorMessage: string): never{
+    throw new Error(errorMessage)
+}
 
 getUpper("hey bud")
 addTwo(5)
