@@ -9,6 +9,8 @@ function createUser({ name, isPaid }: { name: string, isPaid: boolean }){}
 
 createUser({name: "Joe", isPaid: true})
 
-function createCourse():{}{}
+function createCourse():{name: string, price: number}{
+    return {name: "react", price: 666}
+}
 
 export {}
