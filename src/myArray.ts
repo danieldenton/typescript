@@ -8,8 +8,8 @@ const numberOfAlbums: Array<number> = []
 bands.push('Black Sabbath')
 numberOfAlbums.push(19)
 
-
-type Usr = {
+// This will warn you if User was defined anywhere else.
+type User = {
     name: string
     isActive: boolean
 }
@@ -17,3 +17,8 @@ type Usr = {
 // defining an array of types
 // const allUsers: User[] -- this won't work. const must be initialized.
 const allUsers: User[] = []
+
+// This won't work:
+// allUsers.push({})
+// This will
+allUsers.push({name: '', isActive: true})

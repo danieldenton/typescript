@@ -1,7 +1,7 @@
-interface User {
-    name: string;
-    id: number;
-}
+// interface User {
+//     name: string;
+//     id: number;
+// }
 
 class UserAccount {
     name: string;
@@ -13,7 +13,7 @@ class UserAccount {
     }
 }
 
-const user : User = new UserAccount("River", 1)
+// const user : User = new UserAccount("River", 1)
 
 type WindowState = "open" | "closed" | "minimized";
 type LockState = "locked" | "unlocked";
