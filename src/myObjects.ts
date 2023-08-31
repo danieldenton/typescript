@@ -59,7 +59,7 @@ type cardDate = {
     carddate: string
 }
 
-// The & below allos us to use and combine previvously defined objects as well as add another. It combines things obviously.
+// The & below allos us to use and combine previvously defined objects as well as add another. It combines things obviously. Define a new type by combining 2 existing types.
 type cardDetails = cardNumber & cardDate & {
     cvv: number
 }
