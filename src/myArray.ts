@@ -22,3 +22,11 @@ const allUsers: User[] = []
 // allUsers.push({})
 // This will
 allUsers.push({name: '', isActive: true})
+
+// array of arrays:
+const songsOnAlbums: string[][] = [
+    ['Supernaut', 'Snowblind'],
+    ['Iron Man', 'Paranoid']
+]
+
+export {}
