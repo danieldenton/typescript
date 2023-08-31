@@ -27,5 +27,9 @@ function getDbId(id: number | string){
  }
 
  const data: (number | string)[] = [1, 2, 3, "4"]
+
+//  specific variables can be declared
+let seatAllotment: "isle" | "middle" | "window"
+seatAllotment = "window"
     
 export {}
