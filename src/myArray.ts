@@ -7,3 +7,13 @@ const numberOfAlbums: Array<number> = []
 
 bands.push('Black Sabbath')
 numberOfAlbums.push(19)
+
+
+type Usr = {
+    name: string
+    isActive: boolean
+}
+
+// defining an array of types
+// const allUsers: User[] -- this won't work. const must be initialized.
+const allUsers: User[] = []
