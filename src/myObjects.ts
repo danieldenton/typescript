@@ -32,11 +32,13 @@
 // createUser({name: "", email: "", isActive: true})
 
 // readonly cannot be changed. In this example _id is assigned by MongoDB.
+// question mark after the key before the colon means it;s optional.
 type User = {
     readonly _id: string
     name: string
     email: string
     isActive: boolean
+    creditCradDetails?: number
 }
 
 let myUser: User = {
@@ -47,6 +49,20 @@ let myUser: User = {
 }
 
 myUser.email = 'b@b.com'
+// myUser._id = 'yeah' this won't work bud. readonly
+
+type cardNumber = {
+    cardnumber: string
+}
+
+type cardDate = {
+    carddate: string
+}
+
+// The & below allos us to use and combine previvously defined objects as well as add another. It combines things obviously.
+type cardDetails = cardNumber & cardDate & {
+    cvv: number
+}
 
 
 export {}
