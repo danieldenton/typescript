@@ -11,3 +11,6 @@ let rgb: [number, number, number] = [255, 123, 112]
 type User = [number, string]
 
 const newUser: User = [112, 'example@example.com']
+
+// you can adjust by position.
+newUser[1] = 'hey'
