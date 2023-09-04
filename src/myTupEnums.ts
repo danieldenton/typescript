@@ -1,5 +1,7 @@
 // const user: string[] = ["dd", ]
 
+// tuples are defined by putting the type inside the array brackets.
+
 let tUser: [string, number, boolean]
 
 // in a tuple the types must be assigned in the order are declared
