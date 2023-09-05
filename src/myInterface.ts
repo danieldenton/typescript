@@ -3,6 +3,7 @@
 // ? means optional.
 
 interface  User {
+    readonly dbId: number
     email: string,
     userId: number,
     googleId?: string,
@@ -12,10 +13,14 @@ interface  User {
     // above take in a string and retuns a number.
 }
 
-const d: User = { startTrial: () => {
+const d: User = { 
+    startTrial: () => {
     return "trial has started"
 }, 
-getCoupon: (name: "bruce", value: 4) => {
+   getCoupon: (name: "bruce", value: 4) => {
     return 6
 },
-email: "d@d.com", userId: 666 } 
+    dbId: 444,
+    email: "d@d.com",
+    userId: 666 
+} 
