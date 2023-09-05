@@ -13,6 +13,16 @@ interface  User {
     // above take in a string and retuns a number.
 }
 
+// you can add things onto Use as well. See below. Reopening the interface.
+interface User {
+    githubToken: string
+}
+
+// interface can extend. Types can be specifically defined as below with | (ors) 
+interface Admin extends User {
+    role: "admin" | "ta" | "learner"
+}
+
 const d: User = { 
     startTrial: () => {
     return "trial has started"
@@ -21,6 +31,7 @@ const d: User = {
     return 6
 },
     dbId: 444,
+    githubToken: 'fnewihfc',
     email: "d@d.com",
     userId: 666 
 } 
