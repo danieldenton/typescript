@@ -18,7 +18,7 @@ interface User {
     githubToken: string
 }
 
-// interface can extend. Types can be specifically defined as below with | (ors) 
+// interface can extend. They can extend more than one. Types can be specifically defined as below with | (ors) 
 interface Admin extends User {
     role: "admin" | "ta" | "learner"
 }
