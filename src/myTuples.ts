@@ -10,9 +10,9 @@ tUser = ['hey', 12, true]
 // same amount of variables as well.
 let rgb: [number, number, number] = [255, 123, 112]
 
-type User = [number, string]
+// type User = [number, string]
 
-const newUser: User = [112, 'example@example.com']
+// const newUser: User = [112, 'example@example.com']
 
-// you can adjust by position.
-newUser[1] = 'hey'
+// // you can adjust by position.
+// newUser[1] = 'hey'
